@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(137, 43, 226, 0.517);
+}
+#container{
+   font-size: 80px;
+   font-weight: bold;
+}
+#btn-con{
+    margin-top: 15px;
+   text-align: center; 
+}
+.txt{
+    font-size: 30px;
+}
+.btn{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#start{
+    background-color: aqua;
+}
+#stop{
+    background-color: blue;
+}
+#reset{
+    background-color: red;
+}
